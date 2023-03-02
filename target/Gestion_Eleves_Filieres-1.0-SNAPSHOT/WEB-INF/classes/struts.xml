@@ -1,0 +1,86 @@
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<!-- Author: asus -->
+ 
+<struts>
+    <!-- Add your configuration elements here -->
+<!--    <constant name="struts.devMode" value="true" />
+    <constant name="struts.custom.i18n.resources" value="global" />
+    <constant name="struts.objectFactory" value="org.apache.struts2.spring.StrutsSpringObjectFactory" />
+    <constant name="struts.objectFactory.spring.autoWire" value="name" />-->
+    <package name="default" namespace="/" extends="struts-default">
+        <default-action-ref name="dashboard"/>
+        <action name="index">
+            <result>/views/index.jsp</result>
+        </action>
+        <action name="login">
+            <result>/views/login.jsp</result>
+        </action>
+        <!--Dashboard-->
+        <action name="dashboard" class="com.j2ee.controller.DashboardAction">
+            <result name="success">/views/dashboard.jsp</result>
+        </action>
+    </package>
+    
+    <package name="filiere" namespace="/filiere" extends="struts-default">
+        <action name="listFiliere" class="com.j2ee.controller.FiliereAction" method="listFiliere">
+            <result name="success">/views/filieres/index.jsp</result>
+        </action>
+        <action name="createFiliereLink" class="com.j2ee.controller.FiliereAction" method="createFiliereLink">
+            <result name="success">/views/filieres/create.jsp</result>
+        </action>
+        <action name="createFiliere" class="com.j2ee.controller.FiliereAction" method="createFiliere">
+            <result name="success">/views/filieres/index.jsp</result>
+            <result name="input">/views/filieres/create.jsp</result>
+        </action>
+        <action name="detailFiliere" class="com.j2ee.controller.FiliereAction" method="detailFiliere">
+            <result name="success">/views/filieres/detail.jsp</result>
+        </action>
+        <action name="editFiliere" class="com.j2ee.controller.FiliereAction" method="editFiliere">
+            <result name="success">/views/filieres/edit.jsp</result>
+        </action>
+        <action name="updateFiliere" class="com.j2ee.controller.FiliereAction" method="updateFiliere">
+            <result name="success">/views/filieres/index.jsp</result>
+            <result name="input">/views/filieres/edit.jsp</result>
+        </action>
+        <action name="deleteFiliere" class="com.j2ee.controller.FiliereAction" method="deleteFiliere">
+            <result name="success">/views/filieres/index.jsp</result>
+            <result name="input">/views/filieres/index.jsp</result>
+        </action>
+        <action name="getElevesFil" class="com.j2ee.controller.FiliereAction" method="getElevesFil">
+            <result name="success">/views/filieres/index.jsp</result>
+        </action>
+    </package>
+    
+    <package name="eleve" namespace="/eleve" extends="struts-default">
+        <action name="listEleve" class="com.j2ee.controller.EleveAction" method="listEleve">
+            <result name="success">/views/eleves/index.jsp</result>
+        </action>
+        <action name="createEleveLink" class="com.j2ee.controller.EleveAction" method="createEleveLink">
+            <result name="success">/views/eleves/create.jsp</result>
+        </action>
+        <action name="createEleve" class="com.j2ee.controller.EleveAction" method="createEleve">
+            <result name="success">/views/eleves/index.jsp</result>
+            <result name="input">/views/eleves/create.jsp</result>
+        </action>
+        <action name="detailEleve" class="com.j2ee.controller.EleveAction" method="detailEleve">
+            <result name="success">/views/eleves/detail.jsp</result>
+        </action>
+        <action name="editEleve" class="com.j2ee.controller.EleveAction" method="editEleve">
+            <result name="success">/views/eleves/edit.jsp</result>
+        </action>
+        <action name="updateEleve" class="com.j2ee.controller.EleveAction" method="updateEleve">
+            <result name="success">/views/eleves/index.jsp</result>
+            <result name="input">/views/eleves/edit.jsp</result>
+        </action>
+        <action name="deleteEleve" class="com.j2ee.controller.EleveAction" method="deleteEleve">
+            <!--<result name="input">/views/eleves/index.jsp</result>-->
+            <result name="success">/views/eleves/index.jsp</result>
+        </action>
+        <action name="getElevesByFil" class="com.j2ee.controller.EleveAction" method="getElevesByFil">
+            <result name="success">/views/eleves/index.jsp</result>
+        </action>
+    </package>
+</struts>

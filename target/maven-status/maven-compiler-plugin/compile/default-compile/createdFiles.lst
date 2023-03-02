@@ -1,0 +1,15 @@
+com\j2ee\controller\EleveAction.class
+com\j2ee\repository\HibernateUtil.class
+com\j2ee\model\Eleve.class
+com\j2ee\model\Filiere.class
+com\j2ee\controller\FiliereAction.class
+com\j2ee\repository\FiliereDaoImp.class
+com\j2ee\service\FiliereServiceImp.class
+com\j2ee\repository\IFiliereDao.class
+com\j2ee\repository\IEleveDao.class
+com\j2ee\service\IEleveService.class
+com\j2ee\test\Essai.class
+com\j2ee\service\IFiliereService.class
+com\j2ee\service\EleveServiceImp.class
+com\j2ee\controller\DashboardAction.class
+com\j2ee\repository\EleveDaoImp.class

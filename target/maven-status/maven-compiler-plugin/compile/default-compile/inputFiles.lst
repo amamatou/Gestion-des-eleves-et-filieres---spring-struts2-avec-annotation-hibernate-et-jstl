@@ -1,0 +1,15 @@
+C:\Users\asus\Documents\GINF3_2022_2023\J2EE\PROJET\Version4\Gestion_Eleves_Filieres\src\main\java\com\j2ee\controller\DashboardAction.java
+C:\Users\asus\Documents\GINF3_2022_2023\J2EE\PROJET\Version4\Gestion_Eleves_Filieres\src\main\java\com\j2ee\service\IFiliereService.java
+C:\Users\asus\Documents\GINF3_2022_2023\J2EE\PROJET\Version4\Gestion_Eleves_Filieres\src\main\java\com\j2ee\model\Eleve.java
+C:\Users\asus\Documents\GINF3_2022_2023\J2EE\PROJET\Version4\Gestion_Eleves_Filieres\src\main\java\com\j2ee\controller\EleveAction.java
+C:\Users\asus\Documents\GINF3_2022_2023\J2EE\PROJET\Version4\Gestion_Eleves_Filieres\src\main\java\com\j2ee\service\EleveServiceImp.java
+C:\Users\asus\Documents\GINF3_2022_2023\J2EE\PROJET\Version4\Gestion_Eleves_Filieres\src\main\java\com\j2ee\model\Filiere.java
+C:\Users\asus\Documents\GINF3_2022_2023\J2EE\PROJET\Version4\Gestion_Eleves_Filieres\src\main\java\com\j2ee\service\FiliereServiceImp.java
+C:\Users\asus\Documents\GINF3_2022_2023\J2EE\PROJET\Version4\Gestion_Eleves_Filieres\src\main\java\com\j2ee\service\IEleveService.java
+C:\Users\asus\Documents\GINF3_2022_2023\J2EE\PROJET\Version4\Gestion_Eleves_Filieres\src\main\java\com\j2ee\repository\EleveDaoImp.java
+C:\Users\asus\Documents\GINF3_2022_2023\J2EE\PROJET\Version4\Gestion_Eleves_Filieres\src\main\java\com\j2ee\test\Essai.java
+C:\Users\asus\Documents\GINF3_2022_2023\J2EE\PROJET\Version4\Gestion_Eleves_Filieres\src\main\java\com\j2ee\controller\FiliereAction.java
+C:\Users\asus\Documents\GINF3_2022_2023\J2EE\PROJET\Version4\Gestion_Eleves_Filieres\src\main\java\com\j2ee\repository\FiliereDaoImp.java
+C:\Users\asus\Documents\GINF3_2022_2023\J2EE\PROJET\Version4\Gestion_Eleves_Filieres\src\main\java\com\j2ee\repository\HibernateUtil.java
+C:\Users\asus\Documents\GINF3_2022_2023\J2EE\PROJET\Version4\Gestion_Eleves_Filieres\src\main\java\com\j2ee\repository\IEleveDao.java
+C:\Users\asus\Documents\GINF3_2022_2023\J2EE\PROJET\Version4\Gestion_Eleves_Filieres\src\main\java\com\j2ee\repository\IFiliereDao.java
